@@ -17,5 +17,11 @@ for( let heroe of heroes ){
     console.log( heroe );
 }
 
+const valorCarta = ( carta ) => {
 
+    const valor = carta.substring(0, carta.length - 1)
+    console.log(valor)
 
+}
+
+valorCarta('20C')
